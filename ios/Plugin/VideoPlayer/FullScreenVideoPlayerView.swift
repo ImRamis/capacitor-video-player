@@ -247,9 +247,9 @@ open class FullScreenVideoPlayerView: UIView {
                                 NotificationCenter.default.post(name: .playerItemReady, object: nil, userInfo: vId)
                                 self._firstReadyToPlay = false
                                 
-                                self.setNowPlayingInfo()
-                                self.setRemoteCommandCenter()
-                                self.setNowPlayingImage()
+                                // self.setNowPlayingInfo()
+                                // self.setRemoteCommandCenter()
+                                // self.setNowPlayingImage()
                             }
                         case .failed:
                             print("failing to load")
